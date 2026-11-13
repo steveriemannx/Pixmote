@@ -268,7 +268,7 @@ demo; embedded projects only need `make lib`.
 ```cmake
 set(PIXMOTE_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(PIXMOTE_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
-add_subdirectory(path/to/pixmote)
+add_subdirectory(path/to/Pixmote)
 
 target_link_libraries(firmware PRIVATE pixmote)
 ```

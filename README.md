@@ -168,7 +168,7 @@ application data. A taller band means fewer `flush` calls but more RAM; see the
 ## Directory layout
 
 ```
-pixmote/
+Pixmote/
 ├── include/pixmote/     # public headers (no hidden dependencies)
 ├── src/                 # library implementation
 ├── examples/demo.cpp    # 320×340 headless demo that writes PPM screenshots
